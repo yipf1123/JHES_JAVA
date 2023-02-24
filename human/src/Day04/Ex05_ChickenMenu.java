@@ -42,36 +42,36 @@ public class Ex05_ChickenMenu {
 			printMenu();
 
 			menuNo = sc.nextInt();
-
+			
 			if (menuNo == 0)
 				break;
 
 			switch (menuNo) {
-			case 1:
-				menuName = "뿌링클치킨";
-				break;
-			case 2:
-				menuName = "황금올리브 반반치킨";
-				break;
-			case 3:
-				menuName = "후라이드 치킨";
-				break;
-			case 4:
-				menuName = "핫크리스피 치킨";
-				break;
-			case 5:
-				menuName = "양념치킨";
-				break;
-
-			default:
-				menuName = "(선택안함)";
-				break;
+				case 1:
+					menuName = "뿌링클치킨";
+					break;
+				case 2:
+					menuName = "황금올리브 반반치킨";
+					break;
+				case 3:
+					menuName = "후라이드 치킨";
+					break;
+				case 4:
+					menuName = "핫크리스피 치킨";
+					break;
+				case 5:
+					menuName = "양념치킨";
+					break;
+	
+				default:
+					menuName = "(선택안함)";
+					break;
 			}
 
 			if (menuNo >= 0 && menuNo <= 5) {
 				System.out.println(menuName + "이 주문되었습니다.\n");
 				count++;
-			} else {
+			}  else {
 				System.out.println("0~5번 사이의 정수를 입력해주세요.\n");
 			}
 

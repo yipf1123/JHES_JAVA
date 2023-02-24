@@ -32,16 +32,6 @@ public class Ex20_Star1 {
 							}
 			System.out.println();
 			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
 		}
 			
 		sc.close();
